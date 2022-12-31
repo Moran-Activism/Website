@@ -1,0 +1,60 @@
+@font-face {
+    font-family: FiraBold;
+    src: url(fonts/FiraSansCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: FiraMed;
+    src: url(fonts/FiraSansCondensed-Medium.ttf);
+}
+@font-face {
+    font-family: FiraLight;
+    src: url(fonts/FiraSansCondensed-Light.ttf);
+}
+.hlogo {
+    height: 30px;
+    display: inline;
+    margin: auto;
+}
+.head {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border-bottom: 2px solid #008D8C;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#maincont {
+    margin: 5px 10%;
+}
+.QuoteFTCFB {
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-bottom: 0px;
+    font-family: FiraBold;
+    color: #008D8C;
+}
+.QuoteFTCFS {
+    font-family: FiraLight;
+    color: #008D8C;
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-right: 20%;
+}
+.botleftt {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    right: 0;
+    height: 200px;
+    opacity: 25%;
+    
+}
+.tbody {
+    display: inline-block;
+    
+}
+.BContent1 {
+    border-bottom: 2px solid #008D8C;
+}
