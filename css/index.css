@@ -74,8 +74,6 @@ p {
 #ttxt {
     margin-bottom: 0;
 }
-#stxt {
-}
 .section {
     
 }
@@ -96,4 +94,8 @@ p {
     position:fixed;
 
 
+}
+#sttxt {
+    margin-bottom: 0;
+    margin-top: 60;
 }
