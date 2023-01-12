@@ -1,0 +1,83 @@
+@font-face {
+    font-family: FiraBold;
+    src: url(fonts/FiraSansCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: FiraMed;
+    src: url(fonts/FiraSansCondensed-Medium.ttf);
+}
+@font-face {
+    font-family: FiraLight;
+    src: url(fonts/FiraSansCondensed-Light.ttf);
+}
+.hlogo {
+    height: 20px;
+    display: inline;
+    margin: auto;
+}
+.head {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    border-bottom: 2px solid #008D8C;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: FiraBold;
+    color: #008D8C;
+}
+h2 {
+    font-family: FiraMed;
+    color: #008D8C;
+}
+p {
+    font-family: FiraLight;
+    color: #008D8C;
+}
+.item-btxt {
+    font-size: 300%;
+    margin-bottom: 0;
+
+}
+#maincont {
+    margin: 5px 10%;
+}
+#mains1 {
+    margin-top: 60px;
+    font-family: FiraBold;
+    font-size: 50px;
+    color: #008D8C;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
+.grid-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.grid-item .grid-photo {
+    height: 40vh;
+    grid-column:1;
+}
+.grid-item .grid-text {
+    grid-column:2;
+    position: relative;
+    top: 20%;
+}
+.grid-item .grid-text p {
+    margin-right: 500;
+}
+#ttxt {
+    margin-bottom: 0;
+}
+#stxt {
+    margin-right: 800;
+}
+.section {
+    
+}
