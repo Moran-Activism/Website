@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     height: 8%;
-    border-bottom:  solid #008D8C;
+    border-bottom: 1px solid #008D8C;
 }
 html, body {
     margin: 0;
